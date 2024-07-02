@@ -10,7 +10,7 @@ Generic PE loader for fast prototyping evasion techniques
 
 DojoLoader is a generic PE loader initially created to prototype sleep obfuscation techniques with Cobalt Strike UDRL-less raw Beacon payload, in an attempt to reduce debugging time with UDRLs.
 
-[You can read this blog post for more insight on the journey](https://www.naksyn.com/cobalt%20strike/2024/04/15/raising-beacons-without-UDRLs-teaching-how-to-sleep.html).
+[You can read this blog post for more insight on the journey](https://www.naksyn.com/cobalt%20strike/2024/07/02/raising-beacons-without-UDRLs-teaching-how-to-sleep.html).
 
 DojoLoader borrows MemoryModule implementation of the [DynamicDllLoader](https://gitlab.com/ORCA000/dynamicdllloader) project by ORCA000 and expands on that adding modularity and the following features:
  1. download and execution of (xored) shellcode from HTTP of from file
